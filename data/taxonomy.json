@@ -1,0 +1,182 @@
+[
+    {
+        "id": "sk-1",
+        "name": "Python",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-2",
+        "name": "Java",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-3",
+        "name": "Docker",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-4",
+        "name": "AWS",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-5",
+        "name": "React",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-6",
+        "name": "Node.js",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-7",
+        "name": "Kubernetes",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-8",
+        "name": "SQL",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-9",
+        "name": "Git",
+        "category": "Software Engineering",
+        "is_core": true
+    },
+    {
+        "id": "sk-10",
+        "name": "Machine Learning",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-11",
+        "name": "Python",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-12",
+        "name": "R",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-13",
+        "name": "SQL",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-14",
+        "name": "Pandas",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-15",
+        "name": "Scikit",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-16",
+        "name": "TensorFlow",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-17",
+        "name": "Statistics",
+        "category": "Data Science",
+        "is_core": true
+    },
+    {
+        "id": "sk-18",
+        "name": "Agile",
+        "category": "Product Management",
+        "is_core": true
+    },
+    {
+        "id": "sk-19",
+        "name": "Scrum",
+        "category": "Product Management",
+        "is_core": true
+    },
+    {
+        "id": "sk-20",
+        "name": "Jira",
+        "category": "Product Management",
+        "is_core": true
+    },
+    {
+        "id": "sk-21",
+        "name": "Roadmapping",
+        "category": "Product Management",
+        "is_core": true
+    },
+    {
+        "id": "sk-22",
+        "name": "A/B Testing",
+        "category": "Product Management",
+        "is_core": true
+    },
+    {
+        "id": "sk-23",
+        "name": "User Research",
+        "category": "Product Management",
+        "is_core": true
+    },
+    {
+        "id": "sk-24",
+        "name": "Strategy",
+        "category": "Product Management",
+        "is_core": true
+    },
+    {
+        "id": "sk-25",
+        "name": "Figma",
+        "category": "Design",
+        "is_core": true
+    },
+    {
+        "id": "sk-26",
+        "name": "UI/UX",
+        "category": "Design",
+        "is_core": true
+    },
+    {
+        "id": "sk-27",
+        "name": "Adobe Creative Suite",
+        "category": "Design",
+        "is_core": true
+    },
+    {
+        "id": "sk-28",
+        "name": "Prototyping",
+        "category": "Design",
+        "is_core": true
+    },
+    {
+        "id": "sk-29",
+        "name": "Wireframing",
+        "category": "Design",
+        "is_core": true
+    },
+    {
+        "id": "sk-30",
+        "name": "User Research",
+        "category": "Design",
+        "is_core": true
+    }
+]

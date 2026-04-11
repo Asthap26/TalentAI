@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+pydantic-settings
+redis
+pdfplumber
+python-docx
+spacy
+langchain
+langchain-community
+chromadb
+sentence-transformers
+python-dotenv
+openai
+langgraph

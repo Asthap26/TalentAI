@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database for structured data (schema.sql)
+  db:
+    image: postgres:15-alpine
+    container_name: talent_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: talent_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+
+  # Redis for task queuing and caching
+  redis:
+    image: redis:7-alpine
+    container_name: talent_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+
+  # ChromaDB for Vector Embeddings
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: talent_chromadb
+    ports:
+      - "8000:8000"
+    volumes:
+      - chromadata:/chroma/chroma
+
+  # FastAPI Backend (Placeholder/Skeleton)
+  api:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: talent_api
+    command: uvicorn main:app --host 0.0.0.0 --port 8080 --reload
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/app
+    environment:
+      - DATABASE_URL=postgresql://postgres:password@db:5432/talent_db
+      - REDIS_URL=redis://redis:6379/0
+      - CHROMA_HOST=chromadb
+      - CHROMA_PORT=8000
+    depends_on:
+      - db
+      - redis
+      - chromadb
+
+volumes:
+  pgdata:
+  redisdata:
+  chromadata:
